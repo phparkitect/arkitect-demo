@@ -1,0 +1,20 @@
+{
+    "name": "phparkitect/arkitect-demo",
+    "description": "a demo project to show how phparktect works",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michele Orselli",
+            "email": "michele.orselli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require-dev": {
+        "phparkitect/phparkitect": "^0.2.2"
+    }
+}
